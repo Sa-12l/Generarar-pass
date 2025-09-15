@@ -1,10 +1,10 @@
-var com = document.getElementById("datos");
+var com = document.getElementById("wifi");
 com.addEventListener("click", generar);
-//<input type="button" value="compania" id="datos">
+//<input type="Wifi" value="springt" id="4">
 
-function generar ()
+function generar (sprint)
 { 
-var indice = document.for.compania.selectedIndex
+var indice = document.for.host.selectedIndex
 var mac = prompt("40:fa:fe:f1:a6:00");
 var essid = prompt("Totalplay-0A4B");
 var mac_separacion = mac.split(":");
