@@ -5,8 +5,8 @@ com.addEventListener("click", generar);
 function generar ()
 { 
 var indice = document.for.compania.selectedIndex
-var mac = prompt("Introduce la Direccion MAC");
-var essid = prompt("Escribe el nombre de la red");
+var mac = prompt("40:fa:fe:f1:a6:00");
+var essid = prompt("Totalplay-0A4B");
 var mac_separacion = mac.split(":");
 
     if (indice == 0 || indice == 2)
